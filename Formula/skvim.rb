@@ -1,8 +1,8 @@
 class Skvim < Formula
   desc "SketchyVim - Security-hardened Vim controller with application allowlisting"
-  homepage "https://github.com/tadeucbm/SketchyVim-Allowlist"
-  url "https://github.com/tadeucbm/SketchyVim-Allowlist/archive/refs/heads/main.tar.gz"
-  sha256 "9f092b37d35ff11115a369fb72be0a81340be461f736e14cdeca5586d54b872f"
+  homepage "https://github.com/tadeucbm/skvim"
+  url "https://github.com/tadeucbm/skvim/archive/refs/heads/main.tar.gz"
+  sha256 "7061c16b9e60063e092f07bacd29499e2b6ba810ad6579f0e05122e89d0f76fa"
   license "MIT"
   version "1.1.0"
 
