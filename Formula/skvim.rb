@@ -15,6 +15,13 @@ class Skvim < Formula
     bin.install "bin/skvim"
   end
 
+  service do
+    run opt_bin/"skvim"
+    keep_alive true
+    log_path var/"log/skvim.log"
+    error_log_path var/"log/skvim.log"
+  end
+
   test do
     system "#{bin}/skvim", "--help"
   end
